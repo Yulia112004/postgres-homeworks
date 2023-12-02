@@ -3891,7 +3891,7 @@ ALTER TABLE ONLY customer_customer_demo
 --
 
 ALTER TABLE ONLY customer_customer_demo
-    ADD CONSTRAINT fk_customer_customer_demo_customers FOREIGN KEY (customer_id) REFERENCES customers;
+    ADD CONSTRAINT fk_customer_customer_demo_customer_demographics FOREIGN KEY (customer_type_id) REFERENCES customer_demographics;
 
 
 --
